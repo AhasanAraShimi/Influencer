@@ -1,0 +1,380 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.edu-au-vic-wa-nt-guides-font> {
+  font-family: "Edu AU VIC WA NT Guides", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.nav{
+  display: flex;
+justify-content: center;
+ align-items: center;
+ padding: 40px 10px;
+ gap: 500px;
+ margin-bottom: 50px;
+}
+.nav h2{
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.nav-iteams ul{
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-iteams ul li{
+  padding: 20px;
+}
+
+.nav-iteams ul li a{
+  text-decoration: none;
+  color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 600;
+line-height: 1.5rem;
+}
+
+.banner{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.banner-text{
+  max-width: 582px;
+}
+
+.banner-text h1{
+  color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 3.25rem;
+font-weight: 700;
+line-height: 4.4rem;
+}
+
+.banner-text p{
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+
+}
+
+.banner-image{
+  background-image: url(images/Circle\ design.svg);
+  background-position: center;
+  background-size:contain ;
+  background-repeat: no-repeat;
+}
+
+.banner-text button{
+padding: 10px 24px 10px 24px;
+border-radius: 41px;
+background: rgb(224, 44, 109);
+color: rgb(255, 255, 255);
+border: none;
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+line-height: 1.5rem;
+margin-top: 16px;
+}
+
+.banner-text button i{
+  margin-left: 8px;
+}
+
+.banner-image img{
+width: 100%;
+padding: 20px;
+}
+
+.companies{
+  width: 80%;
+  display: flex;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;;
+  padding: 20px;
+}
+
+.company-1, .company-2{
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+
+
+.popular-collection {
+margin-bottom: 100px;
+}
+
+
+.popular-collection h2{
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 4.37rem;
+  text-align: center;
+  padding: 10px;
+}
+
+.products{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 80%;
+  margin: auto;
+}
+
+.product-1{
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+}
+
+.product-1 img{
+  width: 100%;
+}
+
+.product-1 h3{
+  color: rgb(24, 25, 31);
+  font-family: Poppins;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+}
+
+.product-1 h4{
+  color: rgba(0, 0, 0, 0.87);
+font-family: Inter;
+font-size: 1.5rem;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+}
+
+.stars{
+  color: rgb(94, 99, 102);
+font-family: Roboto;
+font-size: 0.88rem;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.1px;
+text-align: left;
+}
+
+.stars i{
+color: rgb(251, 130, 0);
+font-size: 14px;
+margin-right: 5px;
+}
+
+.product-1 p{
+color: rgb(120, 120, 133);
+font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+line-height: 143%;
+letter-spacing: 1.8%;
+text-align: left;
+}
+
+.see-more{
+  width: 90%;
+  margin-top: 90px;
+  margin-bottom: 150px;
+}
+.see-more h5{
+text-align: right;
+color: rgba(224, 44, 109, 0.87);
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+line-height: 1.5rem;
+letter-spacing: 0px;
+}
+
+.see-more i{
+  margin-left: 5px;
+}
+
+.featured-product{
+  width: 80%;
+  display: flex;
+  margin: auto;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.featured-product-image img{
+max-width: 404px;
+}
+.featured-product-text h1{
+  color: rgb(10, 8, 38);
+  font-family: Poppins;
+  font-size: 2.38rem;
+  font-weight: 700;
+  line-height: 3.37rem;
+}
+
+.featured-product-text p{
+  color: rgb(108, 108, 108);
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+line-height: 1.75rem;
+letter-spacing: 0px;
+padding-right: 200px;
+
+}
+
+.featured-product-text button{
+padding: 10px 24px 10px 24px;
+background: rgb(224, 44, 109);
+color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 1rem;
+border: none;
+margin-top: 20px;
+}
+.featured-product-text button i{
+  margin-left: 5px;
+}
+
+
+footer{
+width: 100%;
+background: rgb(13, 10, 35);
+padding-block: 50px;
+}
+
+.footer{
+text-align: center;
+}
+
+.footer h3{
+  color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 1.5rem;
+font-weight: 700;
+line-height: 2.25rem;
+
+}
+
+.footer h5, h6{
+  color: rgb(217, 219, 225);
+font-family: Manrope;
+font-size: .88rem;
+font-weight: 700;
+line-height: 24px;
+}
+
+.social-media{
+  display: flex;
+  gap: 15px;
+  margin: auto;
+  justify-content: center;
+  padding-block:20px ;
+}
+
+.social-media div{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background: rgb(27, 36, 57);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-media i{
+  color: white;
+  font-size: .81rem;
+  
+}
+
+
+/*For small device*/
+@media screen and (max-width:576px){
+  .nav,
+  .nav-iteams ul{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .banner, .featured-product{
+    flex-direction: column-reverse;
+  }
+
+  .companies{
+    gap: 50px;
+    flex-direction: column; /* Stack rows vertically */
+    justify-content: center;
+    align-items: center;
+    gap: 30px; /* Space between rows */
+    padding: 20px;
+    }
+    .company-1, .company-2{
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+    }
+    .products{
+      grid-template-columns: repeat(1 ,1fr);
+      gap: 20px;
+    } 
+    .featured-product-text{
+      text-align: center;
+    }
+    .featured-product-text p{
+      padding: 0;
+    }
+}
+
+
+/*Medium size device*/
+@media screen and (min-width:576px) and (max-width:992px) {
+  .nav{
+    flex-direction: column;
+    gap: 50px;
+  }
+  .banner,
+  .featured-product {
+    flex-direction: column-reverse;
+  }
+  .companies{
+    flex-direction: column;
+  }
+  .products{
+   grid-template-columns: repeat(2, 1fr);
+  }
+  .featured-product-text p{
+    padding: 0;
+  }
+  .featured-product{
+    text-align: center;
+  }
+}
